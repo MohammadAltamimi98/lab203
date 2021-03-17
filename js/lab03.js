@@ -92,7 +92,7 @@ let count=0;
 for (let i=0; i<ch2; i++) {
   let ans2=prompt('Whate are my favorite colors?(I love three)(you can not use the same right answer twice!)');
   if (gus2.includes(ans2)) {
-    alert('you are correct, +1 point');
+    alert('you are correct');
     delete gus2[gus2.indexOf(ans2)];
     count+=1;
   } else {
